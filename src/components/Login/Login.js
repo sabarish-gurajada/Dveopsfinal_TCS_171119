@@ -37,7 +37,7 @@ class Login extends React.Component {
         //     }, (error) => {
         //         console.log(error);
         //     });
-        if(username=="sabarish" && password=="tcs")
+        if(username==="sabarish" && password==="tcs")
         {
             this.props.history.push("/listOfSources")
         }
