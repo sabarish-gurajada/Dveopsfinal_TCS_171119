@@ -1,17 +1,17 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  name: tcsdevops
+  name: tcsdevops2
 spec: 
   replicas: 1
   template:
     metadata:
       labels:
-        name: tcsdevops
+        name: tcsdevops2
     spec:
-      containers:
-      - name: tcsdevops
-        image: gcr.io/tcsdevopsathon/tcsdevopsfinal:latest
+      containers: 
+      - name: tcsdevops2
+        image: gcr.io/tcsdevopsathon/myfinaltcsdevopsss:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3000

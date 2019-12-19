@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: tcsdevops
+  name: tcsdevops2
 spec:
   ports:
     - port: 80
       targetPort: 3000
       protocol: TCP
   selector:
-    name: tcsdevops
+    name: tcsdevops2
   type: LoadBalancer
