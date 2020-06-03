@@ -1,6 +1,6 @@
 # News Application using React JS | Node.js | LowDB | REST API
 
-This web application involves building a simple news application which fetches news articles from an external api vendor and display them in web application
+This web application involves building a simple news application which fetches news articles from an external api vendor and display them in web application.
 
 ### Overview of the Application
 * This web application allows the user to login. Error handling has been done, incorrect username or password won't allow the user to login. For login, you can use -> (username: **akr**, password: **akr**)
