@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: tcsdevops2
+spec: 
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        name: tcsdevops2
+    spec:
+      containers: 
+      - name: tcsdevops2
+        image: sabarishg/ninjatest:tagVersion
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 3000
