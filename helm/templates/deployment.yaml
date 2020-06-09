@@ -11,7 +11,7 @@ spec:
     spec:
       containers: 
       - name: tcsdevops2
-        image: sabarishg/ninjatest:60
+        image: sabarishg/ninjatest:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3000
